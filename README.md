@@ -119,9 +119,11 @@ Features include:
 
   - Loads pre-trained model (sentiment_model.h5) and tokenizer for instant predictions
 
-# Results & Insights
+# Results
 
+<img width="1919" height="875" alt="Image" src="https://github.com/user-attachments/assets/b208556d-86ba-42b6-bf26-f67b7b96072c" />
 
+<img width="1919" height="876" alt="Image" src="https://github.com/user-attachments/assets/3d27be33-1883-43df-9feb-40de055d9732" />
 
 # Conclusion
 
