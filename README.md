@@ -39,6 +39,7 @@ By following this process, we gain practical experience in text preprocessing, s
   The dataset (Twitter Sentiment Dataset) contains labeled tweets categorized into four classes: Positive, Negative, Neutral, and Irrelevant.
   It is loaded using Pandas for preprocessing and analysis.
 
+
 2. Data Preprocessing
 
   Since text data is often noisy, several preprocessing steps are applied:
@@ -55,6 +56,7 @@ By following this process, we gain practical experience in text preprocessing, s
 
 These steps transform raw tweets into clean, numeric sequences suitable for deep learning models.
 
+
 3. Tokenization and Sequence Preparation
 
 - The Keras Tokenizer converts words into integer indices.
@@ -62,6 +64,7 @@ These steps transform raw tweets into clean, numeric sequences suitable for deep
 - Sequences are padded to a fixed length using pad_sequences.
 
 - The dataset is split into training and validation sets (typically 80–20).
+
 
 4. Model Building (Bidirectional LSTM)
 
@@ -78,6 +81,7 @@ The architecture includes:
 
 This architecture enables the model to understand sentiment nuances effectively.
 
+
 5. Model Training and Evaluation
 
 - Loss Function: Categorical Crossentropy
@@ -90,6 +94,7 @@ An EarlyStopping callback is used to prevent overfitting by stopping training wh
 
 The model achieves a strong validation accuracy, indicating effective sentiment classification.
 
+
 6. Visualization
 
 To better understand the data and model results, the following visualizations are generated:
@@ -99,6 +104,7 @@ To better understand the data and model results, the following visualizations ar
   - Training Accuracy Plot – Shows improvement of model performance over epochs
 
   - Confusion Matrix (optional) – To evaluate predictions across sentiment classes
+
 
 7. Streamlit Web Application
 
