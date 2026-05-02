@@ -1,17 +1,5 @@
 # SENTIMENT-ANALYSIS
 
-*COMPANY*: CODTECH IT SOLUTIONS
-
-*NAME*: ABHISHEK VICTOR RAJ MANESH
-
-*INTERN ID*: CT12DY2725
-
-*DOMAIN*: DATA ANALYTICS
-
-*DURATION*: 12 WEEKS
-
-*MENTOR*: NEELA SANTOSH
-
 # Description
 
 This project focuses on performing sentiment analysis on textual data such as tweets and reviews. The goal is to classify each text into two categories — Positive or Negative — using Natural Language Processing (NLP) and Deep Learning techniques.
